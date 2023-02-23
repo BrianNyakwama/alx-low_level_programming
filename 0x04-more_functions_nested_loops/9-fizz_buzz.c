@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-  * main - prints the numbers from 1 to 100
+  * main - print athe numbers from 1 to 100
   *
   * Return: Always 0 (Success)
   */
@@ -22,7 +22,7 @@ int main(void)
 			printf("Buzz");
 			printf(" ");
 		}
-		else if (i % 3 == 0 && i % 5 == 0)
+		else if (i % 3 ==0 && i % 5 == 0)
 		{
 			printf("FizzBuzz");
 			printf(" ");
